@@ -1,0 +1,84 @@
+header{
+  border: 5px;
+  border-style: solid;
+  border-color:#999;
+  display:flex;
+  background-color: #ffffff;
+  display: flex;
+ justify-content: center;
+ text-align: center;
+}
+
+h1,h2,h3,h4,p{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display:flex;
+}
+
+nav li {
+  list-style-type: none;
+}
+nav a {
+  justify-content: space-around;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+button{
+  padding: 5px 10px;
+  background-color: #f4aba3;
+  border: 5px;
+  border-style: solid;
+  border-color:#999;
+}
+.nav-logo {
+  width:10%;
+}
+.main-content {
+  text-align:center;
+}
+.bagBullets{
+  width:15%;
+}
+.bagBullets:hover{
+  border: 1px;
+  border-style: dotted;
+  border-color:black;
+  border-radius:60%;
+}
+
+
+
+.footer-bar{
+background-color: black;
+height: 30px;
+color: white;
+text-align: center;
+}
+
+
+
+/* Contact Page */
+.hero-section{
+  width: 100%;
+}
+
+.signup-process-three {
+  display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
